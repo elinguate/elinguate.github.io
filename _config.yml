@@ -1,0 +1,101 @@
+### Site Settings ###
+title               : alexa o'brien
+description         : >-
+                      <br>
+                      over-caffeinated <span style="color:#ffab40">developer</span>, <span style="color:#ffab40">designer</span>, and <span style="color:#ffab40">technical artist</span> from Auckland
+                      <br><br>
+                      working on some cool stuff in <span style="color:#ffab40">Godot</span>, background primarily in <span style="color:#ffab40">Unity & C#</span> with some <span style="color:#ffab40">C++</span> on the side
+                      <br><br>
+                      currently lecturing at MDS
+                      <br><br>
+                      open to any opportunities to make cool things with cool people
+                      <br><br>
+                      ⋅⋆∘✯ :transgender_flag: ✯∘⋆⋅
+baseurl             : ""                                # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+repository          : elinguate/elinguate/github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+remote_theme        : 
+
+
+### Plugins ###
+plugins:
+  - jemoji
+
+
+### Navbar Settings ###
+nav_exclude:                                            # The following paths are excluded from navbar
+  - pages/tags.html
+  - pages/404.html
+  - pages/index.md
+
+
+### Author Info ###
+author:
+  name              : Alexa O'Brien
+  image             : ../../assets/images/general/me.jpg
+# behance           : your_username
+# dribbble          : your_username
+  email             : elinguate.dev@gmail.com
+# facebook          : your_username
+  github            : elinguate
+# gitlab            : your_username
+# instagram         : your_username
+# kaggle            : your_username
+  linkedin          : smallwavesrocklargerboats
+# medium            : your_username
+# soundcloud        : your_username
+# spotify           : your_username
+# stackoverflow     : your_user_id
+# tumblr            : your_username.tumblr.com
+# twitch            : your_username
+  twitter           : alexawhereami
+# vimeo             : your_username
+# youtube           : your_channel_name
+# keybase           : your_username
+
+
+### Posts ###
+permalink: /blog/:title
+
+
+### Collections ###
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+
+
+### Disqus ###
+#disqus:
+#  shortname: your-short-name-disqus                     # Your website Shortname on disqus
+
+
+### Analytics ###
+analytics:
+  enabled: false                                        # Set true to enable analytics
+  google:
+    tracking_id: your-google-tracking-id
+
+
+### Defaults for collections ###
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: true                                   # Set to true to enable disqus comments
+
+### Exclude from processing ###
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - "*.log"
+
+exclude: [vendor]
+
+github: [metadata]
