@@ -1,5 +1,5 @@
 ### Site Settings ###
-title               : portfolYOU
+title               : alexa o'brien
 description         : >-
                       I turn coffee :coffee: into code,
                       use tabs over spaces
@@ -27,9 +27,9 @@ author:
   image             : https://i.imgur.com/uyDNQnn.jpg
   behance           : your_username
 # dribbble          : your_username
-  email             : username@domain.com
-  facebook          : your_username
-  github            : your_username
+  email             : elinguate.dev@gmail.com
+# facebook          : your_username
+  github            : elinguate
 # gitlab            : your_username
 # instagram         : your_username
 # kaggle            : your_username
@@ -40,7 +40,7 @@ author:
 # stackoverflow     : your_user_id
 # tumblr            : your_username.tumblr.com
 # twitch            : your_username
-  twitter           : your_username
+  twitter           : alexawhereami
 # vimeo             : your_username
 # youtube           : your_channel_name
 # keybase           : your_username
@@ -88,3 +88,5 @@ exclude:
   - CONTRIBUTING.md
   - LICENSE
   - "*.log"
+
+github: [metadata]
