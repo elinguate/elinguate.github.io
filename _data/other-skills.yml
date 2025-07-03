@@ -1,9 +1,13 @@
 - name: Unity
-  percentage: 95
-  color:
+  percentage: 90
+  color: success
 
 - name: Godot
-  percentage: 90
+  percentage: 85
+  color:
+
+- name: Git
+  percentage: 85
   color:
 
 - name: Unreal

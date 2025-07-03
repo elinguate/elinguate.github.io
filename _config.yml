@@ -1,10 +1,14 @@
 ### Site Settings ###
 title               : alexa o'brien
 description         : >-
-                      Passionate about all things game development & software architecture.
-                      Deep expertise in Unity & C#, with a nuanced & thoughtful understanding
-                      of game design, mechanics, & the systems that drive them. 
-                      Versatile and innovative craftsman of bespoke user experiences.
+                      <br>
+                      over-caffeinated developer, designer, and technical artist from Auckland
+                      <br><br>
+                      working on some cool stuff in Godot, background primarily in Unity & C# - currently lecturing at MDS
+                      <br><br>
+                      open to any opportunities to make cool things with cool people
+                      <br><br>
+                      ⋅⋆∘✯ :transgender_flag: ✯∘⋆⋅
 baseurl             : ""                                # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : elinguate/elinguate/github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : YoussefRaafatNasry/portfolYOU
@@ -25,7 +29,7 @@ nav_exclude:                                            # The following paths ar
 ### Author Info ###
 author:
   name              : Alexa O'Brien
-  image             : https://avatars.githubusercontent.com/u/80871133?v=4&size=64
+  image             : ../../assets/images/general/me.jpg
 # behance           : your_username
 # dribbble          : your_username
   email             : elinguate.dev@gmail.com
@@ -81,7 +85,7 @@ defaults:
       path: ""
       type: "posts"
     values:
-      comments: false                                   # Set to true to enable disqus comments
+      comments: true                                   # Set to true to enable disqus comments
 
 ### Exclude from processing ###
 exclude:
