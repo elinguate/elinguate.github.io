@@ -168,11 +168,16 @@ body { font-family: "Fira Code", sans-serif; }
 [data-theme="light"] .project.card .card-body { color: #212529; }
 [data-theme="light"] .project.card .card-title { color: #212529; }
 
-.bg-dark { background-color: #15141a !important; border-radius: 1px; border-color: #242526}
-.bg-dark, .bg-dark, .badge-dark, .badge-dark * { color: #9e9899 !important; }
-.bg-dark .card-text { color: #9e9899 !important; }
-.bg-dark .card-title { color: #e7e7e7 !important; }
-.bg-dark .card-footer { color: #6c757d !important; }
+[data-theme="dark"] .bg-dark { background-color: #15141a !important; border-radius: 1px; border-color: #242526}
+[data-theme="dark"] .bg-dark, [data-theme="dark"] .bg-dark, [data-theme="dark"] .badge-dark, [data-theme="dark"] .badge-dark * { color: #9e9899 !important; }
+[data-theme="dark"] .bg-dark .card-text { color: #9e9899 !important; }
+[data-theme="dark"] .bg-dark .card-title { color: #e7e7e7 !important; }
+[data-theme="dark"] .bg-dark .card-footer { color: #6c757d !important; }
+[data-theme="light"] .bg-dark { background-color: #ffffff !important; border-radius: 1px; border-color: #dfdfdf}
+[data-theme="light"] .bg-dark, [data-theme="light"] .bg-dark, [data-theme="light"] .badge-dark, [data-theme="light"] .badge-dark * { color: #212529 !important; }
+[data-theme="light"] .bg-dark .card-text { color: #212529 !important; }
+[data-theme="light"] .bg-dark .card-title { color: #212529 !important; }
+[data-theme="light"] .bg-dark .card-footer { color: #6c757d !important; }
 
 .fa-heart { color: #ffab40; }
 
