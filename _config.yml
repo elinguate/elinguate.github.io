@@ -1,9 +1,10 @@
 ### Site Settings ###
 title               : alexa o'brien
 description         : >-
-                      I turn coffee :coffee: into code,
-                      use tabs over spaces
-                      and never broke production.
+                      Passionate about all things game development & software architecture.
+                      Deep expertise in Unity & C#, with a nuanced & thoughtful understanding
+                      of game design, mechanics, & the systems that drive them. 
+                      Versatile and innovative craftsman of bespoke user experiences.
 baseurl             : ""                                # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : elinguate/elinguate/github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : YoussefRaafatNasry/portfolYOU
@@ -24,8 +25,8 @@ nav_exclude:                                            # The following paths ar
 ### Author Info ###
 author:
   name              : Alexa O'Brien
-  image             : https://i.imgur.com/uyDNQnn.jpg
-  behance           : your_username
+  image             : https://avatars.githubusercontent.com/u/80871133?v=4&size=64
+# behance           : your_username
 # dribbble          : your_username
   email             : elinguate.dev@gmail.com
 # facebook          : your_username
@@ -33,8 +34,8 @@ author:
 # gitlab            : your_username
 # instagram         : your_username
 # kaggle            : your_username
-  linkedin          : your_username
-  medium            : your_username
+  linkedin          : smallwavesrocklargerboats
+# medium            : your_username
 # soundcloud        : your_username
 # spotify           : your_username
 # stackoverflow     : your_user_id
@@ -58,8 +59,8 @@ collections:
 
 
 ### Disqus ###
-disqus:
-  shortname: your-short-name-disqus                     # Your website Shortname on disqus
+#disqus:
+#  shortname: your-short-name-disqus                     # Your website Shortname on disqus
 
 
 ### Analytics ###
