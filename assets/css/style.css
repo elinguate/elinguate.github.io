@@ -171,6 +171,25 @@ body { font-family: "Fira Code", sans-serif; }
 .navbar-brand { margin-bottom: -14px; }
 .navbar-brand::after { margin-top: -0.25em; }
 
+/* Card columns for project */
+@media screen and (min-width: 576px) {
+    .card-columns {
+        column-count: 1 !important;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .card-columns {
+        column-count: 2 !important;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .card-columns {
+        column-count: 3 !important;
+    }
+}
+
 .markdown-body h1, .markdown-body h2 { margin-top: 32px; }
 [data-theme="dark"] .markdown-body h1, [data-theme="dark"] .markdown-body h2, [data-theme="dark"] .markdown-body h3 { color: #e7e7e7 !important; }
 [data-theme="dark"] .markdown-body { color: #9e9899 !important; }
@@ -457,6 +476,8 @@ body { font-family: "Fira Code", sans-serif; }
 .highlight .cpf, [data-theme="dark"] pre .cpf, [data-theme="dark"] code.highlighter-rouge .cpf { color: #aaaaaa; font-style: italic; }
 
 /* Comment.PreprocFile */
+
+/* Light/Dark Theme Toggler */
 [data-theme="light"] #theme-toggler:before { font-family: "Font Awesome 5 Free"; content: "\f185"; font-weight: 900; display: inline-block; font-size: 0.85em; }
 [data-theme="dark"] #theme-toggler:before { font-family: "Font Awesome 5 Free"; content: "\f186"; font-weight: 900; display: inline-block; font-size: 0.85em; }
 
@@ -464,6 +485,14 @@ body { font-family: "Fira Code", sans-serif; }
 [data-theme="dark"] .navbar-themed .navbar-brand, [data-theme="dark"] .navbar-themed .navbar-nav .nav-link.active { color: rgba(255, 255, 255, 0.9); }
 [data-theme="light"] .navbar-themed .navbar-nav .nav-link { color: rgba(52, 58, 64, 0.5); }
 [data-theme="dark"] .navbar-themed .navbar-nav .nav-link { color: #9e9899; }
+
+/* Navbar hamburger menu */
+[data-theme="dark"] .navbar-toggler { color: var(--dark-body); }
+[data-theme="light"] .navbar-toggler { color: var(--light-body); }
+.navbar-toggler { position: relative; top: 5px; }
+
+/* Slight padding to make navbar prettier */
+.ml-auto, .mx-auto { margin-top: 10px !important; }
 
 /*
 [data-theme="light"] .text-themed { color: #343a40; }
