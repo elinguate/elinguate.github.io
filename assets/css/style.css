@@ -1,8 +1,14 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Fira+Code");
 
-/* have a look at this code pen? theme transition across a whole page
- https://codepen.io/z-/pen/ZEzMpdj */
+/* have a look at this code pen? theme transition across a whole page:
+  https://codepen.io/z-/pen/ZEzMpdj */
+
+/* code pen for cool colour gradients w/ dithering:
+  codepen.io/DavidJAldred/pen/pVbQBJ */
+
+/* another code pen for 1-bit colour gradients:
+  https://codepen.io/schwiiiii/pen/wvVqLmX */
 
 :root 
 {

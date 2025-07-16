@@ -6,9 +6,9 @@ Docs for testing locally:
 https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll
 
 > bundle install
-> bundle exec jekyll serve --livereload
+> bundle exec jekyll serve --livereload --force-polling
 
-Make sure to use --livereload above, as it will ensure that live changes get updated automatically *and* the theme won't break when you do so!
+Make sure to use --livereload (and --force-polling) above, as it will ensure that live changes get updated automatically *and* the theme won't break when you do so!
 
 It can help to tick "Disable Cache" in the browser Network tab, as sometimes the caching can cause issues.
 
