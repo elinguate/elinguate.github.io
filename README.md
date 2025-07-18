@@ -20,10 +20,10 @@ If the theme breaks fully just terminate, and recall the command.
 
 ## General Install Guide
 
-Install Ruby: https://www.ruby-lang.org/en/documentation/installation/
-Install RubyGems: https://rubygems.org/pages/download
-Install GCC: Annoying + Add environment variable
-Install Make: https://gnuwin32.sourceforge.net/packages/make.htm - Setup program + Add environment variable
+- Install Ruby: https://www.ruby-lang.org/en/documentation/installation/
+- Install RubyGems: https://rubygems.org/pages/download
+- Install GCC: Annoying + Add environment variable
+- Install Make: https://gnuwin32.sourceforge.net/packages/make.htm + Setup program + Add environment variable
 
 Install Jekyll: 
 > gem install jekyll bundler
