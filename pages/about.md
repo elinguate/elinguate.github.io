@@ -5,7 +5,7 @@ permalink: /about/
 weight: 3
 ---
 
-Hi, I'm **Alexa**! I'm a <span style="color:#ffab40">developer</span>, <span style="color:#ffab40">designer</span>, and <span style="color:#ffab40">technical artist</span> currently lecturing at Media Design School. If you have an interesting project or opportunity, I'd love to hear about how I might be able to assist~!
+Hi, I'm **Alexa**! I'm a <a href="special">developer</a>, <a href="special">designer</a>, and <a href="special">technical artist</a> currently lecturing at Media Design School. If you have an interesting project or opportunity, I'd love to hear about how I might be able to assist~!
 
 <a href="mailto:elinguate.dev\@gmail.com">elinguate.dev@gmail.com</a>
 

@@ -4,8 +4,9 @@
     <!-- Fine Circle Responsive Image -->
     <div id="container" class="my-2">
       <div id="dummy"></div>
-      <div id="element">
-        <img src="{{ site.author.image }}" alt="{{ site.title }}" class="circle-image wow animated zoomIn" data-wow-delay=".1s" style="visibility:hidden">
+      <div id="element" style="display:flex">
+        <div class="circle-image-outline wow animated fadeIn" data-wow-delay="1.1s" style="visibility:hidden"></div>
+        <img src="{{ site.author.image }}" alt="{{ site.title }}" class="circle-image wow animated zoomIn" data-wow-delay="0.1s" style="visibility:hidden">
       </div>
     </div>
 

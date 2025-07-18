@@ -142,6 +142,23 @@ body { font-family: "Fira Code", sans-serif; }
 .progress .progress-bar { background-color: #ffab40 !important; }
 .progress { height: 6px !important; }
 
+/* Special text highlighting */
+[data-theme="dark"] a[href='special'] {
+  color: var(--dark-highlight);
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+}
+[data-theme="light"] a[href='special'] {
+  color: var(--light-highlight);
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+}
+
+/* Profile image outline ring */
+.circle-image-outline { position: absolute; top: -16px; bottom: -16px; left: -16px; right: -16px; border-style: solid; border-radius: 50%; border-width: 4px; border-color: var(--dark-highlight); }
+
 /* Search bar */
 .search-box { box-shadow: none !important; }
 .search-box { border-radius: 5px 0px 0px 5px !important; }
@@ -172,8 +189,8 @@ body { font-family: "Fira Code", sans-serif; }
 
 /* Tags button */
 /* TO DO: at some point come back here and make the tag button square */
-[data-theme="dark"] .btn-outline-primary { background-color: var(--dark-background-feature-muted); border-color: var(--dark-highlight); }
-[data-theme="light"] .btn-outline-primary  { background-color: var(--light-background-feature-muted); border-color: var(--light-highlight); }
+[data-theme="dark"] .btn-outline-primary { background-color: var(--dark-background-feature-muted); border-color: var(--dark-highlight); color: var(--dark-highlight) !important; }
+[data-theme="light"] .btn-outline-primary  { background-color: var(--light-background-feature-muted); border-color: var(--light-highlight); color: var(--light-highlight) !important; }
 [data-theme="dark"] .fa-tags { color: var(--dark-highlight); }
 [data-theme="light"] .fa-tags { color: var(--light-highlight); }
 
