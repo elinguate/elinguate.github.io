@@ -156,6 +156,17 @@ body { font-family: "Fira Code", sans-serif; }
   text-decoration: none;
 }
 
+.carousel { padding-top: 4px; }
+.text-center { margin-bottom: 0px; }
+.col-lg { margin-top: -18px; }
+.h1, h1 { margin-bottom: -4px; }
+
+.post-metadata { padding-top: 10px; }
+
+.h4, h4 { padding-top: 1.25rem; padding-bottom: 0.75rem; }
+[data-theme="dark"] .h4, [data-theme="dark"] h4 { color: var(--dark-body-feature); }
+[data-theme="light"] .h4, [data-theme="light"] h4 { color: var(--light-body-feature); }
+
 /* Profile image outline ring */
 .circle-image-outline { position: absolute; top: -16px; bottom: -16px; left: -16px; right: -16px; border-style: solid; border-radius: 50%; border-width: 4px; }
 [data-theme="dark"] .circle-image-outline { border-color: var(--dark-highlight); }

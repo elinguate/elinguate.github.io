@@ -32,7 +32,7 @@ nav_exclude:                                            # The following paths ar
 ### Author Info ###
 author:
   name              : Alexa O'Brien
-  image             : ../../assets/images/general/me.jpg
+  image             : ../../assets/images/general/me.webp
 # behance           : your_username
 # dribbble          : your_username
   email             : elinguate.dev@gmail.com

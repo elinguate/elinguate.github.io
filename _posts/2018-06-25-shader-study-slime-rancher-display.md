@@ -22,7 +22,7 @@ But it's the small notes that really draw out the uniqueness of their style. Hul
 
 These pixels are much bigger than their real world counterparts, and yet they don't distort or muddy the normal image when you're further back from the screen. This is the sort of effect that you might not glance twice at as you're playing through Slime Rancher, but its a brilliant touch, that when noticed, makes you immediately appreciate whoever implemented it to be so effortlessly unique. There are a bunch of effects at play here, so let's tackle them one at a time.
 
-### Texture Pixelation
+#### Texture Pixelation
 
 This one is a simple one, but it definitely helps to sell the dream of our very own retro TV - pixelation. When we chuck a texture onto a material normally, it will try to draw as much of the texture's detail as it can fit on the object (and screen!). We don't want that - we want our object to look like a display - and displays have a finite number of pixels to draw to. Regardless of the original texture's resolution, we need to pixelate our image to a fixed pixel resolution, and we'll do that by manipulating the UV coordinates.
 
@@ -54,7 +54,7 @@ Once we've done all of this, we should have a nice little UV set that we can act
 {% include elements/figure.html image="../../assets/images/shader_studies/slime_rancher/05.webp" caption="Slime Rancher's cute pink plorts can be morphed from their original 1024x1024 resolution to whatever we need." %}
 
 
-### Hidden Pixels
+#### Hidden Pixels
 
 This is functionally a very simple effect - but there are some subtle nuances that will be important to nail to really sell this. To start with, we have to focus on fading the pixels on and off as we get closer to the display. Like with all things in programming, there are lots of different ways of tackling this. One sneaky way of performing this fade-in is via mipmaps.
 
@@ -80,7 +80,7 @@ Now that we've got our pixels fading away, we need to add the original texture t
 {% include elements/figure.html image="../../assets/images/shader_studies/slime_rancher/08.webp" caption="By blending through mipmaps we get a clean look from afar, as well as a nice blend to our pixels up close." %}
 
 
-### Glitch Effect
+#### Glitch Effect
 
 Now that we have our display working properly we can start breaking it. We can see that once in a while the display glitches out - turning the display to a low-res pixelated mess. We've already played around with pixelation to get the texture displaying like a display, so now we just need to extend our previous effect to (occasionally and selectively) amp it up to 11! To do this we need to build a moving band, and this will help us lerp between the default pixelation and our special blend of retro pixel death.
 
@@ -100,7 +100,7 @@ As well, we're also letting our lerp smoothly move between pixel sizes. Examinin
 
 It's certainly looking better but we're still a bit off the sharpness of the original. We've fixed those smooth curves, and yet we still have some odd thin pixels being generated. Although we're guaranteeing that each pixel block is locked together (and will only be able to use an integer resolution), we haven't ensured that our new pixel block size will fit with the others around it. When we think of pixelation normally, we're really thinking about the level of subdivisions increasing or decreasing. We want a block of 16 pixels to become 4 mega pixels, and those 4 mega pixel to form into a super pixel (or vice versa). This means that we're inherently dealing with an exponential problem - we expect our resolution to double or half in size at each step. So long as we're dealing with resolutions that are a power of 2, we can easily bind the resolution to the last exponential step. By calculating the log of our output resolution (with base 2), flooring, and then raising 2 to the power of it, we ensure that we'll only end up with grid-friendly resolution steps.
 
-### Wrapping Up
+#### Wrapping Up
 
 With all this done, we finally have our shader wrapped up, and can enjoy it in action! Naturally, there's still plenty we can do to make this more impressive, and I've taken the liberty of doing some of those final polish steps for the image down below. None of them are particularly complex in and of themselves, but its the little touches that help make your shader unique and worthwhile, so never forget to polish!
 

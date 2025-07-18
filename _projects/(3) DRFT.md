@@ -1,11 +1,11 @@
 ---
-name: <center><h3>DRFT</h3></center>
+name: DRFT
 tools: [godot, design, aseprite]
-image: "../../assets/images/drft/square.png"
+image: "../../assets/images/drft/square.webp"
 description: <center>an elegant top-down racer all about the tightest, fastest lines - endlessly repeated til they're perfect</center>
 ---
 
-![header](../../assets/images/drft/header.png)
+![header](../../assets/images/drft/header.webp)
 
 <center><h1>DRFT</h1></center>
 <br>
@@ -14,9 +14,9 @@ DRFT is all about fast, risky plays, and learning the limitations of your vehicl
 As a game with a very simple core loop (you move faster when you're drifting), it gave me an opportunity to focus on realising tight UX and UI within Godot, and tying it into more rich features like Steam leaderboards integration, ghost support, and level design tools!
 
 {% capture carousel_images %}
-../../assets/images/drft/demo1.gif
-../../assets/images/drft/1.png
-../../assets/images/drft/2.png
-../../assets/images/drft/3.png
+../../assets/images/drft/demo1.webp
+../../assets/images/drft/1.webp
+../../assets/images/drft/2.webp
+../../assets/images/drft/3.webp
 {% endcapture %}
 {% include elements/carousel.html %}

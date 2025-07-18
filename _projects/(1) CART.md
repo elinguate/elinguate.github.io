@@ -1,11 +1,11 @@
 ---
-name: <center><h3>CART</h3></center>
+name: CART
 tools: [godot, design, aseprite]
-image: "../../assets/images/cart/square.png"
+image: "../../assets/images/cart/square.webp"
 description: <center>a small puzzle game all about moving carts, inspired by Zachtronics games like Spacechem and the beauty of Minecraft minecarts</center>
 ---
 
-![header](../../assets/images/cart/header.png)
+![header](../../assets/images/cart/header.webp)
 
 <center><h1>CART</h1></center>
 <br>
@@ -20,8 +20,8 @@ This was my first time using Godot to make a complete game from end-to-end, so w
 </p>
 
 {% capture carousel_images %}
-../../assets/images/cart/1.png
-../../assets/images/cart/2.png
-../../assets/images/cart/3.png
+../../assets/images/cart/1.webp
+../../assets/images/cart/2.webp
+../../assets/images/cart/3.webp
 {% endcapture %}
 {% include elements/carousel.html %}
