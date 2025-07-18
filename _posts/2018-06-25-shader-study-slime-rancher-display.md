@@ -4,6 +4,7 @@ tags: [shaders, unity]
 style: fill
 color: dark
 description: a short shader study on Slime Rancher's gorgeous pixelated displays - replicating the effect in Unity w/ Amplify
+comments: true
 ---
 
 I think the most fitting shader to begin with has to be the one that inspired me to write this series in the first place - Slime Rancher's pixel displays. If you're intrigued by the game after our examination you can check it out on [Steam](https://store.steampowered.com/app/433340/Slime_Rancher/), and thanks to [Alan Zucconi](https://www.alanzucconi.com/) for tackling [this shader well before me](https://www.alanzucconi.com/2016/05/04/lcd-shader/), and inspiring me to delve deeper into it! We'll be recreating the shader behind it piece-by-piece in Unity with a little help from [Amplify Shader Editor](https://assetstore.unity.com/packages/tools/visual-scripting/amplify-shader-editor-68570), but the techniques applied can be used in whatever engine you happen to be using.
@@ -110,4 +111,4 @@ With all this done, we finally have our shader wrapped up, and can enjoy it in a
 
 If you're interested in the shader code that's behind what's displayed above, feel free to look through the source [here](https://github.com/elinguate-old/Shader_Studies)!
 
-Got a burning question, a great shader you want me to tackle next, or some feedback about how I can improve? Post down below or get in touch with the forms up above, and thanks for following along!
+Got a burning question, a great shader you want me to tackle next, or some feedback about how I can improve? Post down below or get in touch, and thanks for following along!

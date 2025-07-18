@@ -66,8 +66,8 @@ collections:
 
 
 ### Disqus ###
-#disqus:
-#  shortname: your-short-name-disqus                     # Your website Shortname on disqus
+disqus:
+  shortname: elinguate                     # Your website Shortname on disqus
 
 
 ### Analytics ###
