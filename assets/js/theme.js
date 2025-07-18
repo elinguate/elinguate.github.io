@@ -43,4 +43,23 @@ function getTheme() {
 
 function setTheme(value) {
   document.documentElement.setAttribute(THEME_ATTR, value);
+  changeGiscusTheme(value);
+}
+
+// helpful chat here re theme changing: https://github.com/giscus/giscus/issues/336
+
+function changeGiscusTheme(theme) {
+  console.debug(theme);
+  
+  sendMessage({
+    setConfig: {
+      theme: theme
+    }
+  });
+}
+
+function sendMessage(message) {
+  const iframe = document.querySelector('iframe.giscus-frame');
+  if (!iframe) return;
+  iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
 }

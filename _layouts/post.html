@@ -31,7 +31,16 @@ layout: page
 {{ content }}
 
 {% if page.comments %}
+<script>
+  var theme = localStorage.getItem('theme');
+  theme = theme == null ? 'dark' : 'light';
+</script>
+
 <div class="pt-5">
-  {% include blog/disqus.html %}
+  {% include blog/giscus.html %}
 </div>
+
+<script>
+  document.querySelector('script[src="https://giscus.app/client.js"]').setAttribute('data-theme', theme);
+</script>
 {% endif %}
