@@ -1,8 +1,8 @@
 ---
 name: DRFT
-tools: [godot, design, aseprite]
+tools: [godot, aseprite]
 image: "../../assets/images/drft/square.webp"
-description: <center>an elegant top-down racer all about the tightest, fastest lines - endlessly repeated til they're perfect</center>
+description: an elegant top-down racer all about the tightest, fastest lines - endlessly repeated til they're perfect
 ---
 
 ![header](../../assets/images/drft/header.webp)

@@ -1,8 +1,8 @@
 ---
 name: CART
-tools: [godot, design, aseprite]
+tools: [godot, aseprite]
 image: "../../assets/images/cart/square.webp"
-description: <center>a small puzzle game all about moving carts, inspired by Zachtronics games like Spacechem and the beauty of Minecraft minecarts</center>
+description: a small puzzle game all about moving carts, inspired by Zachtronics games like Spacechem and the beauty of Minecraft minecarts
 ---
 
 ![header](../../assets/images/cart/header.webp)
