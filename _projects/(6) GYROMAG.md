@@ -7,7 +7,7 @@ description: a fast-paced, multiplayer, gravity-swapping FPS where time to kill 
 
 ![header](../../assets/images/gyromag/header.webp)
 
-<center><h1>HIVE</h1></center>
+<center><h1>GYROMAG</h1></center>
 <br>
 GYROMAG is a first-person arena shooter where the power to change gravity is at your command. Realised in a modern 3D pixel aesthetic, you’ll find yourself utilising the diverse arsenal and swift gravity-swapping to annihilate your opponents and prove yourself to be the superior Droidbot!
 
