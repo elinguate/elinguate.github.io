@@ -12,13 +12,23 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <title>{{ title }}</title>
+  <meta name="description" content="{{ short-description }}">
+
+  <!-- Facebook Meta Tags -->
+  <meta property="og:url" content="https://elinguate.github.io">
   <meta property="og:type" content="website">
   <meta property="og:title" content="{{ title }}">
-  <meta property="og:description" content="{{ description }}">
-  <meta property="og:image" content="{{ image }}">
+  <meta property="og:description" content="{{ short-description }}">
+  <meta property="og:image" content="{{ author.image }}">
 
-  <title>{{ title }}</title>
-  <meta name="description" content="{{ description }}">
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="{{ author.image }}">
+  <meta property="twitter:domain" content="elinguate.github.io">
+  <meta property="twitter:url" content="https://elinguate.github.io">
+  <meta name="twitter:title" content="alexa o'brien">
+  <meta name="twitter:description" content="{{ short-description }}">
+  <meta name="twitter:image" content="{{ author.image }}">
 
   <link rel="shortcut icon" type="image/x-icon" href="{{ '/assets/favicon.ico' | relative_url }}">
 
@@ -40,5 +50,5 @@
   <!--Bricklayer-->
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bricklayer/0.4.2/bricklayer.min.css">
   <script src="//cdnjs.cloudflare.com/ajax/libs/bricklayer/0.4.2/bricklayer.min.js"></script>
-  
+
 </head>
