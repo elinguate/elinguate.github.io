@@ -49,8 +49,6 @@ function setTheme(value) {
 // helpful chat here re theme changing: https://github.com/giscus/giscus/issues/336
 
 function changeGiscusTheme(theme) {
-  console.debug(theme);
-  
   sendMessage({
     setConfig: {
       theme: theme
@@ -63,3 +61,4 @@ function sendMessage(message) {
   if (!iframe) return;
   iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
 }
+
