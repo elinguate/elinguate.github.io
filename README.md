@@ -6,13 +6,17 @@ Docs for testing locally:
 https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll
 
 > bundle install
-> bundle exec jekyll serve --livereload --force-polling
+> bundle exec jekyll serve --livereload --open-url
 
-Make sure to use --livereload (and --force-polling) above, as it will ensure that live changes get updated automatically *and* the theme won't break when you do so!
+Make sure to use --livereload, as it will ensure that live changes get updated automatically *and* the theme won't break when you do so!
 
-It can help to tick "Disable Cache" in the browser Network tab, as sometimes the caching can cause issues.
+The --open-url will just automatically open the locally hosted address when it's ready!
 
-If the theme breaks just terminate, and recall the command.
+It can help to tick "Disable Cache" in the browser Network tab, as sometimes the caching can cause issues (stylesheet doesn't update, etc.).
+
+Sometimes the theme will turn off when editing files that aren't the .css - if so just tab back and re-save the .css file to reapply it.
+
+If the theme breaks fully just terminate, and recall the command.
 
 ## General Install Guide
 
