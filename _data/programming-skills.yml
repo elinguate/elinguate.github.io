@@ -1,11 +1,11 @@
 - name: C#
   percentage: 90
-  color:
 
 - name: C++
   percentage: 85
-  color:
 
-- name: Gdscript
+- name: GDScript
   percentage: 80
-  color:
+
+- name: HTML/CSS
+  percentage: 70
