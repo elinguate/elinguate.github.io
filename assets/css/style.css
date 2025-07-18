@@ -157,7 +157,9 @@ body { font-family: "Fira Code", sans-serif; }
 }
 
 /* Profile image outline ring */
-.circle-image-outline { position: absolute; top: -16px; bottom: -16px; left: -16px; right: -16px; border-style: solid; border-radius: 50%; border-width: 4px; border-color: var(--dark-highlight); }
+.circle-image-outline { position: absolute; top: -16px; bottom: -16px; left: -16px; right: -16px; border-style: solid; border-radius: 50%; border-width: 4px; }
+[data-theme="dark"] .circle-image-outline { border-color: var(--dark-highlight); }
+[data-theme="light"] .circle-image-outline { border-color: var(--light-highlight); }
 
 /* Search bar */
 .search-box { box-shadow: none !important; }
