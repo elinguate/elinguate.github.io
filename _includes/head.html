@@ -7,9 +7,9 @@
   {% assign fancy_image = page.fancy_image | default: site.author.fancy_image %}
   {% assign twitter = page.twitter | default: site.author.twitter %}
 
-  {% assign fancy_image_https = 'https://elinguate.github.io/assets/images/general/meta.webp' %}
-  {% assign fancy_image_square_https = 'https://elinguate.github.io/assets/images/general/meta_square.webp' %}
-  {% assign icon_https = 'https://elinguate.github.io/assets/favicon.ico' %}
+  {% assign fancy_image_https = 'https://elinguate.github.io/assets/images/general/meta.webp?' %}
+  {% assign fancy_image_square_https = 'https://elinguate.github.io/assets/images/general/meta_square.webp?' %}
+  {% assign icon_https = 'https://elinguate.github.io/assets/favicon.ico?' %}
 
   {% if page.name and page.collection == 'projects' %}
     {% assign title = page.name | escape %}
