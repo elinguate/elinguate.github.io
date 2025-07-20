@@ -7,7 +7,7 @@
   {% assign fancy_image = page.fancy_image | default: site.author.fancy_image %}
   {% assign twitter = page.twitter | default: site.author.twitter %}
 
-  {% assign fancy_image_https = 'https://elinguate.github.io/assets/images/general/meta.jpg?' %}
+  {% assign fancy_image_https = 'https://elinguate.github.io/assets/images/general/meta.webp?' %}
   {% assign fancy_image_square_https = 'https://elinguate.github.io/assets/images/general/meta_square.webp?' %}
   {% assign icon_https = 'https://elinguate.github.io/assets/favicon.ico?' %}
 
@@ -31,16 +31,14 @@
   <meta property="og:image" content="{{ fancy_image_https }}">
 
   <!-- Twitter Meta Tags -->
-  <meta name="twitter:card" content="summary">
-  <!--
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ title }}">
+  <meta name="twitter:description" content="{{ short_description }}">
+  <meta name="twitter:image" content="{{ fancy_image_square_https }}">
   <meta name="twitter:site" content="{{ '@' | twitter }}">
   <meta name="twitter:creator" content="{{ '@' | twitter }}">
   <meta property="twitter:domain" content="elinguate.github.io">
   <meta property="twitter:url" content="https://elinguate.github.io">
-  -->
-  <meta name="twitter:title" content="{{ title }}">
-  <meta name="twitter:description" content="{{ short_description }}">
-  <meta name="twitter:image" content="{{ fancy_image_https }}">
 
   <link rel="shortcut icon" type="image/x-icon" href="{{ '/assets/favicon.ico' | relative_url }}">
 
