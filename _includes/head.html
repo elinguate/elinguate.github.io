@@ -8,6 +8,7 @@
   {% assign twitter = page.twitter | default: site.author.twitter %}
 
   {% assign fancy_image_https = 'https://elinguate.github.io/assets/images/general/meta.webp' %}
+  {% assign fancy_image_square_https = 'https://elinguate.github.io/assets/images/general/meta_square.webp' %}
   {% assign icon_https = 'https://elinguate.github.io/assets/favicon.ico' %}
 
   {% if page.name and page.collection == 'projects' %}
@@ -38,7 +39,7 @@
   <meta property="twitter:url" content="https://elinguate.github.io">
   <meta name="twitter:title" content="{{ title }}">
   <meta name="twitter:description" content="{{ short_description }}">
-  <meta name="twitter:image" content="{{ fancy_image_https }}">
+  <meta name="twitter:image" content="{{ fancy_image_square_https }}">
 
   <link rel="shortcut icon" type="image/x-icon" href="{{ '/assets/favicon.ico' | relative_url }}">
 
