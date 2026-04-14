@@ -9,11 +9,11 @@ description: a small puzzle game all about moving carts, inspired by Zachtronics
 
 <center><h1>CART</h1></center>
 <br>
-CART is a small puzzle game proof-of-concept all about moving carts. Of course, moving them won't be just as simple as drawing in the tracks. You'll need to space them, time them, merge them, split them, dupe them, and much much more.
+CART is a small proof-of-concept puzzle game all about moving carts. Of course, moving them won't be just as simple as drawing in the tracks. You'll need to space them, time them, merge them, split them, dupe them, and much much more.
 
 The majority of the project was made over the course of a week as a proof-of-concept for a puzzle game grant, and I did all of the design, development, and art within Godot and Aseprite.
 
-This was my first time using Godot to make a complete game from end-to-end, so was a great learning experience - and the puzzle space was a really interesting one to explore both conceptually and in practice in implementation!
+This was my first time using Godot to make a complete game from end-to-end, so was a great learning experience - and the puzzle space was a really interesting one to explore both conceptually and in practice through implementation!
 
 <p class="text-center">
 {% include elements/button.html link="https://elinguate.itch.io/cart" text="Play it on Itch!" %}
