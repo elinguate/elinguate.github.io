@@ -23,5 +23,6 @@ This was my first time using Godot to make a complete game from end-to-end, so w
 ../../assets/images/cart/1.webp
 ../../assets/images/cart/2.webp
 ../../assets/images/cart/3.webp
+../../assets/images/cart/4.webp
 {% endcapture %}
 {% include elements/carousel.html %}
